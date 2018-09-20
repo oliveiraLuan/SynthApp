@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_pesquisar"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/ic_buscar_white"
+        android:title="Item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_configurar"
+        android:icon="@drawable/ic_configuracoes_white"
+        android:title="configurar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_adicionar"
+        android:icon="@drawable/ic_adicionar_white"
+        android:title="Adicionar"
+        app:showAsAction="always" />
+
+
+
+</menu>
