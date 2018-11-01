@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "443265823270",
+    "firebase_url": "https://synthapp-57c66.firebaseio.com",
+    "project_id": "synthapp-57c66",
+    "storage_bucket": "synthapp-57c66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443265823270:android:ccd7c7fd5d1fc39d",
+        "android_client_info": {
+          "package_name": "com.example.luan.synthdecor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443265823270-830gsj4i9bif5tg9nmtc8kq2quo10e0k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCHqj90D9dP6vFzt179BgZqCQ_QNdv3Ww"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

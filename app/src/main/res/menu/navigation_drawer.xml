@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/myhome"
+            android:icon="@drawable/ic_home_black"
+            android:title="Início"/>
+        <item
+            android:id="@+id/myaccount"
+            android:icon="@drawable/ic_account_black"
+            android:title="Minha Conta"/>
+        <item
+            android:id="@+id/mycart"
+            android:icon="@drawable/ic_cart_black"
+            android:title="Meu Carrinho"
+            android:checked="false"/>
+        <item
+            android:id="@+id/myorders"
+            android:icon="@drawable/ic_orders_black"
+            android:title="Meus Pedidos"
+            android:checked="false"/>
+        <item
+            android:id="@+id/mynotifications"
+            android:icon="@drawable/ic_notification_black"
+            android:title="Minhas Notificações"
+            android:checked="false"/>
+        <item
+            android:id="@+id/botao_sair_app"
+            android:title="Fechar o aplicativo"
+            android:icon="@drawable/ic_exit_black"
+            app:actionProviderClass="android.support.v7.app.MediaRouteActionProvider" />
+    </group>
+</menu>
