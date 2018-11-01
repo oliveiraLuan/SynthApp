@@ -78,7 +78,7 @@ class HomeActivity : DebugActivity(), NavigationView.OnNavigationItemSelectedLis
         // parâmetros extras
         intent.putExtra("pedido", order)
         // Disparar notificação
-        NotificationUtil.create(this, 1, intent, "LMSApp", "Você tem nova atividade na ${order.nome}")
+        NotificationUtil.create(this, 1, intent, "Synth", "Você tem um novo ${order.nome}")
     }
 
 

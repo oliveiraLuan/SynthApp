@@ -27,8 +27,8 @@ class MainActivity : DebugActivity() {
         if (lembrar) {
             var lembrarNome  = Prefs.getString("lembrarNome")
             var lembrarSenha  = Prefs.getString("lembrarSenha")
-            label_username.setText(lembrarNome)
-            label_password.setText(lembrarSenha)
+            text_username.setText(lembrarNome)
+            text_password.setText(lembrarSenha)
             checkLembrar.isChecked = lembrar
 
         }
@@ -40,8 +40,8 @@ class MainActivity : DebugActivity() {
 
     fun onClickLogin(){
 
-        val valorUsuario = label_username.text.toString()
-        val valorSenha = label_password.text.toString()
+        val valorUsuario = text_username.text.toString()
+        val valorSenha = text_password.text.toString()
 
         // armazenar valor do checkbox
         Prefs.setBoolean("lembrar", checkLembrar.isChecked)

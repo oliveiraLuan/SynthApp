@@ -18,7 +18,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import com.squareup.picasso.Picasso
 
-class OrderActivity : DebugActivity(), NavigationView.OnNavigationItemSelectedListener {
+class  OrderActivity : DebugActivity(), NavigationView.OnNavigationItemSelectedListener {
 
     private val context: Context get() = this
     var order: Order? = null
