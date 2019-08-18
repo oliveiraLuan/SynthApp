@@ -5,10 +5,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
 
-/**
- * A sample splash screen created by devdeeds.com
- * by Jayakrishnan P.M
- */
+
 class SplashActivity : AppCompatActivity() {
     private var mDelayHandler: Handler? = null
     private val SPLASH_DELAY: Long = 2000 //3 seconds
